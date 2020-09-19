@@ -4,7 +4,13 @@
 * `ImportError: numpy.core.multiarray failed to import`
 > Downgrade numpy version to `1.18.0`
 
+* `OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable`
+> ```
+> export OMP_NUM_THREADS=1
+> export USE_SIMPLE_THREADED_LEVEL3=1
+> ```
 
+https://github.com/xianyi/OpenBLAS/issues/1668#issuecomment-402728065
 
 
 # Tips
