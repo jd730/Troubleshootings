@@ -17,6 +17,9 @@ https://github.com/xianyi/OpenBLAS/issues/1668#issuecomment-402728065
 > sudo apt update
 > sudo apt -y install libgl1-mesa-glx
 > ```
+
+https://github.com/conda-forge/pygridgen-feedstock/issues/10#issuecomment-365914605
+
 # Tips
 
 * Kill all processes of which names include some `${proc_name}`
