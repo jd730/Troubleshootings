@@ -2,7 +2,7 @@
 
 
 * `ImportError: numpy.core.multiarray failed to import`
-> Downgrade numpy version to `1.18.0`
+> `pip install numpy==1.18.0`
 
 * `OpenBLAS blas_thread_init: pthread_create failed for thread 63 of 64: Resource temporarily unavailable`
 > ```
