@@ -12,7 +12,11 @@
 
 https://github.com/xianyi/OpenBLAS/issues/1668#issuecomment-402728065
 
-
+* `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
+> ```
+> sudo apt update
+> sudo apt -y install libgl1-mesa-glx
+> ```
 # Tips
 
 * Kill all processes of which names include some `${proc_name}`
