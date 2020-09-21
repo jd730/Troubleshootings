@@ -18,7 +18,15 @@ https://github.com/xianyi/OpenBLAS/issues/1668#issuecomment-402728065
 > sudo apt -y install libgl1-mesa-glx
 > ```
 
+
 https://github.com/conda-forge/pygridgen-feedstock/issues/10#issuecomment-365914605
+
+* wandb Segmentation Fault
+
+> `pip install opencv-python==4.3.0.36`
+
+https://github.com/wandb/client/issues/1210
+
 
 # Tips
 
