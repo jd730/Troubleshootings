@@ -32,3 +32,15 @@ https://github.com/wandb/client/issues/1210
 
 * Kill all processes of which names include some `${proc_name}`
 > `ps -ef | grep ${proc_name} | grep -v grep | awk '{print $2}' | xargs -r kill -9`
+
+* JW Player change frame rate
+
+```
+var video = document.getElementById('exampleId')
+var video_speed = video.getElementsByTagName('video')[0]
+alert(video_speed.playbackRate)
+
+video_speed.playbackRate=0.2;
+```
+
+https://stackoverflow.com/a/18312602
