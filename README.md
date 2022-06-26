@@ -33,6 +33,9 @@ https://github.com/wandb/client/issues/1210
 * Kill all processes of which names include some `${proc_name}`
 > `ps -ef | grep ${proc_name} | grep -v grep | awk '{print $2}' | xargs -r kill -9`
 
+* Search files that contain text
+> `grep -nrw $PATH -e $TEXT`
+
 * JW Player change frame rate
 
 ```
